@@ -1,0 +1,21 @@
+body{
+    font-family: sans-serif;
+}
+
+section.grid{
+    width: 900px;
+    height: 900px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.grid>article.square{
+    width: (100% / 10) - 2px;
+    height: (100% / 10) - 2px;
+    border: 1px solid black;
+}
+
+section.grid>article.square.active{
+    background-color: aqua;
+}
