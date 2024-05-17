@@ -3,19 +3,26 @@ body{
 }
 
 section.grid{
-    width: 900px;
-    height: 900px;
+    width: 600px;
+    height: 600px;
     color: black;
     display: flex;
     flex-wrap: wrap;
-}
-
-section.grid>article.square{
-    width: (100% / 10) - 2px;
-    height: (100% / 10) - 2px;
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;
+    margin: 0 auto;
 }
 
-section.grid>article.square.active{
+section.grid > article.square{
+    width: calc((100% / 10) - 2px);
+    height: calc((100% / 10) - 2px);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.grid > article.square.active{
     background-color: aqua;
 }
