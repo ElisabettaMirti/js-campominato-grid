@@ -13,6 +13,7 @@ for (let i = 0; i < 100; i++){
     squareEl.append(i + 1);
     squareEl.addEventListener('click', function(){
         squareEl.classList.add('active');
+        console.log(squareEl.innerText)
     });
 
     gridEL.appendChild(squareEl);
