@@ -2,6 +2,17 @@ body{
     font-family: sans-serif;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header>button{
+    margin-right: 3rem;
+    padding: .5rem 1rem;
+}
+
 section.grid{
     width: 600px;
     height: 600px;
